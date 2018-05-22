@@ -27,6 +27,6 @@ def getCensusMetadata(name,vintage=2016, type="variables"):
 # These are tests
 
 # print(getCensusMetadata('acs1',2009).shape)
-print(getCensusMetadata('acs5'))
+print(getCensusMetadata('acs5',2012).columns.values)
 # print(getCensusMetadata('acs5',vintage=None).shape)
 # print(getCensusMetadata('acs5',vintage='2015').shape)
